@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="home.js"></script>
+    <nav class="navbar">
+        <div class="container">
+            <span class="logo">WeatherApp</span>
+            <div class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="weather.html">Forecast</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Your Personal Weather Companion</h1>
+        <p>Get accurate weather forecasts for any city in the world</p>
+        <a href="weather.html" class="btn">Check Weather Now</a>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-cloud-sun"></i>
+            <h3>Real-time Updates</h3>
+            <p>Get instant weather information for any location worldwide.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Mobile Friendly</h3>
+            <p>Access weather data on any device, anywhere, anytime.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-chart-line"></i>
+            <h3>Detailed Analytics</h3>
+            <p>View comprehensive weather metrics and forecasts.</p>
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to receive weather alerts and updates.</p>
+        <form id="subscribeForm">
+            <input type="email" id="emailInput" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+            <p id="subscribeStatus"></p>
+        </form>
+    </section>
+</body>
+</html>
